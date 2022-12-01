@@ -1,0 +1,56 @@
+git and github
+
+version control management
+
+..............................
+git is a tool
+github is a repository
+
+
+
+1)operations : 
+	a) Clone:- exact copy of project
+	b) Push :- update new project and new updates from local repo to remote repo. 
+	c) Pull :- update new project and new updates from remote repo to local repo. 
+
+
+<strong>git roadmap</strong>
+
+$git --version (get git version)
+
+git init (initialize git)
+
+git status (to check the status of files that has not been added)
+
+untracked files  (The files which has not been added to staging area)
+
+git add . (Adds all untracked files to the staging area)
+
+git commit -m "This message describes the commitment from staging area to local repository"
+
+git status (Check status after commitment)
+
+now push to remote repository
+
+git remote -v (To check whether remote has been added or not)
+
+git remote add l1 https://github.com/tahseentajmal/example01.git
+
+git remote -v 
+
+git push -u l1 master
+
+username(github) :
+password or token
+
+
+repo setting>pages>branch>none to master then save
+
+
+clone commands
+
+open terminal in folder and
+git clone (github code repo http)
+
+
+
